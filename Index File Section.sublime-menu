@@ -1,0 +1,12 @@
+[
+    {
+        "caption": "取消所有暂存",
+        "command": "unstage_all",
+        "args": { "filtered": true },
+    },
+    {
+        "caption": "创建补丁…",
+        "command": "create_patch",
+        "args": { "diff_against_index": true },
+    },
+]

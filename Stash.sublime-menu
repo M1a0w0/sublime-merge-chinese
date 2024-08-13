@@ -1,0 +1,15 @@
+[
+	{
+		"caption": "取回贮藏",
+		"command": "pop_stash", "args": {"stash": "$stash"}
+	},
+	{
+		"caption": "应用贮藏",
+		"command": "apply_stash", "args": {"stash": "$stash"}
+	},
+	{
+		"caption": "丢弃贮藏",
+		"command": "drop_stash", "args": {"stash": "$stash"}
+	},
+	{ "caption": "-", "id": "end" }
+]

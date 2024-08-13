@@ -1,0 +1,8 @@
+[
+	{
+		"caption": "保存而不暂存",
+		"command": "save_without_staging",
+		"args": {}
+	},
+	{ "caption": "-", "id": "end" }
+]

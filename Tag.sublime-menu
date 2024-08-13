@@ -1,0 +1,27 @@
+[
+	{
+		"caption": "切换标签 $tag_name",
+		"command": "checkout_branch",
+		"args": { "branch": "$ref" }
+	},
+	{
+		"command": "delete_tag",
+		"caption": "删除标签 $tag_name",
+		"args": {"ref": "$ref"}
+	},
+	{
+		"command": "show_command_palette",
+		"args":
+		{
+			"command": "push_tag",
+			"args": { "ref": "$ref" },
+			"description": "推送 $tag_name",
+		},
+	},
+	{
+		"caption": "复制 '$tag_name'",
+		"command": "copy_to_clipboard",
+		"args": { "text": "$tag_name" }
+	},
+	{ "caption": "-", "id": "end" }
+]

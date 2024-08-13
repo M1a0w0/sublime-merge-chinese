@@ -1,0 +1,16 @@
+[
+	{
+		"caption": "解决合并冲突",
+		"command": "resolve_merge_conflict", "args": { "path": "$path" },
+	},
+	{
+		"caption": "暂存文件",
+		"command": "stage_file",
+		"args": { "path": "$path" },
+	},
+	{
+		"caption": "用 Git LFS 追踪",
+		"command": "lfs_track_file",
+		"args": { "path": "$path" },
+	},
+]

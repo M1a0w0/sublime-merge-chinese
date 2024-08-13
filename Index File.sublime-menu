@@ -1,0 +1,22 @@
+[
+	{
+		"caption": "取消暂存",
+		"command": "unstage_file",
+		"args": { "path": "$path" },
+	},
+	{
+		"caption": "创建补丁…",
+		"command": "create_patch",
+		"args": { "path": "$path", "diff_against_index": true },
+	},
+	{
+		"caption": "编辑暂存内容…",
+		"command": "edit_staged_file",
+		"args": { "staged": "$staged", "path": "$path" }
+	},
+	{
+		"caption": "用 Git LFS 追踪",
+		"command": "lfs_track_file",
+		"args": { "path": "$path" },
+	},
+]

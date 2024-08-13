@@ -1,0 +1,12 @@
+[
+    {
+        "caption": "暂存所有未追踪",
+        "command": "stage_all_untracked",
+        "args": { "filtered": true },
+    },
+    {
+        "caption": "删除所有未追踪",
+        "command": "clean_working_dir",
+        "args": { "filtered": true },
+    },
+]

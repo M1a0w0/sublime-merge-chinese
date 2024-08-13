@@ -1,0 +1,29 @@
+[
+	{
+		"caption": "在编辑器中打开…",
+		"command": "open_in_editor",
+		"args": { "path": "$working_dir/$path", "line": "$line", "col": "$col" }
+	},
+	{ "command": "open_context_url"},
+	{ "caption": "-" },
+	{ "command": "copy", "caption": "复制" },
+	{ "command": "select_all", "caption": "全选" },
+	{ "caption": "-" },
+	{ "command": "toggle_ignore_diff_whitespace", "caption":"忽略空白字符更改" },
+	{
+		"caption": "自动换行",
+		"id": "word_wrap",
+		"children":
+		[
+			{ "command": "set_word_wrap", "caption": "自动",  "args": {"word_wrap": "auto" }, "checkbox": true },
+			{ "command": "set_word_wrap", "caption": "启用", "args": {"word_wrap": true }, "checkbox": true },
+			{ "command": "set_word_wrap", "caption": "禁用", "args": {"word_wrap": false }, "checkbox": true },
+		],
+	},
+	{ "caption": "-" },
+	{
+		"caption": "编辑暂存内容…",
+		"command": "edit_staged_file",
+		"args": { "staged": "$staged", "path": "$path", "line": "$line", "col": "$col" }
+	},
+]

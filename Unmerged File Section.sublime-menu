@@ -1,0 +1,7 @@
+[
+    {
+        "caption": "暂存所有未合并",
+        "command": "stage_all_unmerged",
+        "args": { "filtered": true },
+    },
+]

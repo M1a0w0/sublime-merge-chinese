@@ -1,0 +1,12 @@
+[
+	{
+		"caption": "采用我方 (ours)",
+		"command": "resolve_merge_conflict",
+		"args": {"path": "$path", "mode": "ours"}
+	},
+	{
+		"caption": "采用对方 (theirs)",
+		"command": "resolve_merge_conflict",
+		"args": {"path": "$path", "mode": "theirs"}
+	},
+]

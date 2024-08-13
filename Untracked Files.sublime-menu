@@ -1,0 +1,10 @@
+[
+	{
+		"caption": "暂存选中的文件",
+		"command": "stage_selected_files",
+	},
+	{
+		"caption": "删除选中的文件",
+		"command": "delete_selected_files",
+	},
+]

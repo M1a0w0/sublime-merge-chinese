@@ -1,0 +1,120 @@
+[
+	{
+		"caption": "切换到 $branch",
+		"command": "checkout_branch",
+		"args": { "branch": "$branch" }
+	},
+	{
+		"command": "merge_branch",
+		"args": { "branch": "$branch" },
+	},
+	{
+		"command": "rebase_branch",
+		"args": { "branch": "$branch", "commit": "$commit"}
+	},
+	{
+		"caption": "删除 $branch",
+		"command": "delete_branch",
+		"args": { "ref": "$ref" }
+	},
+	{
+		"command": "show_command_palette",
+		"args":
+		{
+			"command": "rename_branch",
+			"args": {"branch": "$branch"},
+			"description": "重命名 $branch…",
+		}
+	},
+	{
+		"caption": "复制 '$branch'",
+		"command": "copy_to_clipboard",
+		"args": { "text": "$branch" }
+	},
+	{
+		"caption": "隐藏 $branch",
+		"command": "hide_ref",
+		"args": { "ref": "$ref" }
+	},
+	{
+		"caption": "显示 $branch",
+		"command": "show_ref",
+		"args": { "ref": "$ref" }
+	},
+	{
+		"caption": "隐藏除 $branch 之外的所有分支",
+		"command": "hide_all_refs_except",
+		"args": { "ref": "$ref" }
+	},
+	{
+		"caption": "显示所有隐藏的分支",
+		"command": "show_all_refs",
+		"args": { "ref": "$ref" }
+	},
+	{
+		"command": "show_command_palette",
+		"args":
+		{
+			"command": "set_upstream",
+			"args": { "branch": "$branch" },
+			"description": "设置上游…"
+		}
+	},
+	{
+		"caption": "取消上游设置",
+		"command": "unset_upstream",
+		"args": { "branch": "$branch" }
+	},
+	{
+		"caption": "搜索…",
+		"command": "search",
+		"args": { "query": "branch:$branch " },
+	},
+	{ "caption": "-" },
+	{
+		"caption": "Git Flow: Finish",
+		"command": "show_command_palette",
+		"args": { "command": "gitflow_finish_feature", "args": {"branch": "$branch"}},
+	},
+	{
+		"caption": "Git Flow: Finish",
+		"command": "show_command_palette",
+		"args": { "command": "gitflow_finish_bugfix", "args": {"branch": "$branch"}},
+	},
+	{
+		"caption": "Git Flow: Finish",
+		"command": "show_command_palette",
+		"args": { "command": "gitflow_finish_release", "args": {"branch": "$branch"}},
+	},
+	{
+		"caption": "Git Flow: Finish",
+		"command": "show_command_palette",
+		"args": { "command": "gitflow_finish_hotfix", "args": {"branch": "$branch"}},
+	},
+	{
+		"caption": "Git Flow: Rebase",
+		"command": "gitflow_rebase_feature",
+		"args": { "branch": "$branch" },
+	},
+	{
+		"caption": "Git Flow: Rebase",
+		"command": "gitflow_rebase_bugfix",
+		"args": { "branch": "$branch" },
+	},
+	{
+		"caption": "Git Flow: Rebase",
+		"command": "gitflow_rebase_release",
+		"args": { "branch": "$branch" },
+	},
+	{
+		"caption": "Git Flow: Rebase",
+		"command": "gitflow_rebase_hotfix",
+		"args": { "branch": "$branch" },
+	},
+	{
+		"caption": "Git Flow: Rebase",
+		"command": "gitflow_rebase_support",
+		"args": { "branch": "$branch" },
+	},
+	{ "caption": "-", "id": "end" }
+]

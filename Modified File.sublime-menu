@@ -1,0 +1,22 @@
+[
+	{
+		"caption": "暂存文件",
+		"command": "stage_file",
+		"args": { "path": "$path" },
+	},
+	{
+		"caption": "丢弃文件",
+		"command": "discard_file",
+		"args": { "path": "$path" },
+	},
+	{
+		"caption": "用 Git LFS 追踪",
+		"command": "lfs_track_file",
+		"args": { "path": "$path" },
+	},
+	{
+		"caption": "创建补丁",
+		"command": "create_patch",
+		"args": { "path": "$path" },
+	}
+]

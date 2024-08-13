@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "还原区块",
+        "command": "revert_diff_hunk"
+    },
+    {
+        "caption": "拣选区块",
+        "command": "cherrypick_hunk"
+    }
+]

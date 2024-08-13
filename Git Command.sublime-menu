@@ -1,0 +1,7 @@
+[
+    {
+        "caption": "重新执行命令",
+        "command": "rerun_command",
+        "args": { "previous_command_index": "$command_index" },
+    },
+]

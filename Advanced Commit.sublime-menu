@@ -1,0 +1,18 @@
+[
+	{
+		"caption": "修正前一次提交 (--amend)",
+		"command": "commit",
+		"args": {"mode": "commit --amend"}
+	},
+	{
+		"caption": "不使用钩子提交 (--no-verify)",
+		"command": "commit",
+		"args": {"mode": "commit", "options": ["--no-verify"]}
+	},
+	{
+		"caption": "不使用钩子修正提交 (--amend --no-verify)",
+		"command": "commit",
+		"args": {"mode": "commit --amend", "options": ["--no-verify"]}
+	},
+	{ "caption": "-", "id": "end" }
+]

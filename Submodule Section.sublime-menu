@@ -1,0 +1,24 @@
+[
+	{
+		"caption": "添加子模块…",
+		"command": "show_command_palette", "args":
+		{
+			"command": "add_submodule",
+		}
+	},
+	{
+		"caption": "初始化所有子模块",
+		"command": "update_submodule",
+		"args": { "recursive": true, "initialize": true }
+	},
+	{
+		"caption": "更新所有已初始化的子模块",
+		"command": "update_submodule",
+		"args": { "recursive": true }
+	},
+	{
+		"caption": "同步所有已初始化的子模块",
+		"command": "sync_submodule",
+		"args": { "recursive": true }
+	},
+]

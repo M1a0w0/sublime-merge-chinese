@@ -1,0 +1,17 @@
+[
+    {
+        "caption": "复制作者",
+        "command": "copy_to_clipboard",
+        "args": {"text": "$author <$email>"}
+    },
+    {
+        "caption": "复制作者名",
+        "command": "copy_to_clipboard",
+        "args": {"text": "$author"}
+    },
+    {
+        "caption": "复制作者邮箱",
+        "command": "copy_to_clipboard",
+        "args": {"text": "$email"}
+    },
+]
