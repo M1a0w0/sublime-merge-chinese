@@ -1,11 +1,11 @@
 [
     {
-        "caption": "隐藏所有该提交的分支",
+        "caption": "隐藏所有在该提交上的分支",
         "command": "hide_all_commit_refs",
         "args": {"commit": "$commit"}
     },
     {
-        "caption": "隐藏除该提交之外的所有分支",
+        "caption": "隐藏除在该提交上之外的所有分支",
         "command": "hide_all_refs_except_refs_at_commit",
         "args": {"commit": "$commit"}
     },

@@ -11,6 +11,6 @@
 	{
 		"caption": "用 Git LFS 追踪",
 		"command": "lfs_track_file",
-		"args": { "path": "$path" },
+		"args": { "pattern": "$path" },
 	},
 ]

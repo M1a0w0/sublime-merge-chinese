@@ -1,6 +1,12 @@
 [
-    { "command": "navigate_to_context_commit" },
-    { "command": "open_context_url" },
+    {
+        "caption": "跳转至选定提交",
+        "command": "navigate_to_context_commit"
+    },
+    {
+        "caption": "打开选定URL",
+        "command": "open_context_url"
+    },
     { "caption": "-" },
     {
         "caption": "剪切",

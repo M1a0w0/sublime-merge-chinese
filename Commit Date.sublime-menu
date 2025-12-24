@@ -1,6 +1,6 @@
 [
     {
-        "caption": "复制时间",
+        "caption": "复制日期与时间",
         "command": "copy_to_clipboard",
         "args": {"text": "$date"}
     }

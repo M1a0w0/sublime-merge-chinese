@@ -34,5 +34,10 @@
 		"command": "open_dir_in_sublime_text",
 		"args": { "dir": "$working_dir" }
 	},
+	{
+		"caption": "在 终端 中打开仓库",
+		"command": "open_terminal",
+		"args": { "dir": "$working_dir" }
+	},
 	{ "caption": "-", "id": "end" }
 ]

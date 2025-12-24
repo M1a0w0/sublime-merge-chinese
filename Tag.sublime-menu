@@ -1,5 +1,15 @@
 [
 	{
+		"caption": "从标签 $tag_name 创建分支…",
+		"command": "show_command_palette",
+		"args":
+		{
+			"command": "create_branch_from_tag",
+			"args": { "from": "$ref" },
+			"description": "从标签 $tag_name 创建分支…",
+		},
+	},
+	{
 		"caption": "切换标签 $tag_name",
 		"command": "checkout_branch",
 		"args": { "branch": "$ref" }

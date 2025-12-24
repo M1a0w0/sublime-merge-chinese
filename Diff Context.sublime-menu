@@ -4,12 +4,12 @@
 		"command": "open_in_editor",
 		"args": { "path": "$working_dir/$path", "line": "$line", "col": "$col" }
 	},
-	{ "command": "open_context_url"},
+	{ "command": "open_context_url", "caption": "打开选定URL" },
 	{ "caption": "-" },
 	{ "command": "copy", "caption": "复制" },
 	{ "command": "select_all", "caption": "全选" },
 	{ "caption": "-" },
-	{ "command": "toggle_ignore_diff_whitespace", "caption":"忽略空白字符更改" },
+	{ "command": "toggle_ignore_diff_whitespace", "caption":"忽略/显示空白字符更改" },
 	{
 		"caption": "自动换行",
 		"id": "word_wrap",

@@ -5,7 +5,7 @@
 		"args": {"from": "$branch"}
 	},
 	{
-		"caption": "切换本地分支 $branch",
+		"caption": "切换到 $branch 的本地分支",
 		"command": "checkout_local_branch",
 		"args": {"remote_branch": "$branch"}
 	},
@@ -15,10 +15,15 @@
 		"args": {"branch": "$branch"}
 	},
 	{
+		"caption": "合并 $branch 到 $head_ref…",
 		"command": "merge_branch",
 		"args": { "branch": "$branch" },
 	},
-	{ "command": "rebase_branch", "args": {"branch": "$branch"} },
+	{
+		"caption": "变基 $head_ref 到 $branch",
+		"command": "rebase_branch",
+		"args": {"branch": "$branch"}
+	},
 	{
 		"caption": "删除 $branch",
 		"command": "delete_branch",

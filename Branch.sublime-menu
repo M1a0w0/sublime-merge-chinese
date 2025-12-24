@@ -5,10 +5,12 @@
 		"args": { "branch": "$branch" }
 	},
 	{
+		"caption": "合并 $branch 到 $head_ref…",
 		"command": "merge_branch",
 		"args": { "branch": "$branch" },
 	},
 	{
+		"caption": "变基 $head_ref 到 $branch", 
 		"command": "rebase_branch",
 		"args": { "branch": "$branch", "commit": "$commit"}
 	},

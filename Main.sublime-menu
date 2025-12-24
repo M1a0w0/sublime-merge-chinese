@@ -1,7 +1,7 @@
 [
 	{
 		"caption": "文件",
-		// "mnemonic": "F",
+		"mnemonic": "F",
 		"id": "file",
 		"children":
 		[
@@ -11,7 +11,7 @@
 			{ "command": "quick_switch_repository", "caption": "切换仓库…" },
 			{
 				"caption": "打开历史记录",
-				// "mnemonic": "R",
+				"mnemonic": "R",
 				"children":
 				[
 					{ "command": "restore_tab", "caption": "重新打开关闭的标签页" },
@@ -44,43 +44,33 @@
 			{ "command": "close_window", "caption": "关闭窗口" },
 			{ "command": "close_tab", "caption": "关闭标签页" },
 			{ "caption": "-", "id": "exit" },
-			{ "command": "exit", "caption": "退出","platform": "Windows"
-				// ,"mnemonic": "x"
-			},
-			{ "command": "exit", "caption": "退出", "platform": "Linux"
-				// , "mnemonic": "Q"
-			},
+			{ "command": "exit", "caption": "退出", "mnemonic": "x", "platform": "Windows" },
+			{ "command": "exit", "caption": "退出", "mnemonic": "Q", "platform": "Linux" },
 		]
 	},
 	{
 		"caption": "编辑",
-		// "mnemonic": "E",
+		"mnemonic": "E",
 		"id": "edit",
 		"children":
 		[
 			{ "command": "undo", "mnemonic": "U" },
 			{ "command": "redo_or_repeat", "mnemonic": "R" },
 			{ "caption": "-" },
-			{ "command": "cut", "caption": "剪切"
-				// , "mnemonic": "t"
-			},
-			{ "command": "copy", "caption": "复制"
-				// , "mnemonic": "C"
-			},
+			{ "command": "cut", "mnemonic": "t", "caption": "剪切" },
+			{ "command": "copy", "mnemonic": "C", "caption": "复制" },
 			{ "caption": "复制为HTML", "command": "copy_as_html", "args": {"enclosing_tags": true, "font_size": false} },
-			{ "command": "paste", "caption": "粘贴"
-				// , "mnemonic": "P"
-			},
+			{ "command": "paste", "mnemonic": "P", "caption": "粘贴" },
 			{ "caption": "-" },
 			{ "command": "select_all", "caption": "全选" },
 			{ "caption": "-" },
-			{ "command": "wrap_lines", "caption": "自动分行" },
+			{ "command": "wrap_lines", "caption": "自动换行" },
 			{ "caption": "-", "id": "end" },
 		]
 	},
 	{
 		"caption": "仓库",
-		// "mnemonic": "R",
+		"mnemonic": "R",
 		"id": "repository",
 		"children":
 		[
@@ -167,12 +157,13 @@
 			{ "caption": "-" },
 			{ "command": "open_dir", "args": {"dir": "$working_dir"}, "caption": "打开仓库所在目录…" },
 			{ "command": "open_dir_in_sublime_text", "args": {"dir": "$working_dir"}, "caption": "在 Sublime Text 中打开仓库…" },
+			{ "command": "open_terminal", "args": {"dir": "$working_dir"}, "caption": "在 终端 中打开仓库…" },
 			{ "caption": "-", "id": "end" }
 		]
 	},
 	{
 		"caption": "导航",
-		// "mnemonic": "N",
+		"mnemonic": "N",
 		"id": "navigate",
 		"children":
 		[
@@ -233,6 +224,10 @@
 							"tab": 3,
 						},
 					},
+					{
+						"caption": "选择提交详情",
+						"command": "select_commit_details",
+					},
 					{ "caption": "-" },
 					{
 						"caption": "下一个文件页",
@@ -253,7 +248,7 @@
 	},
 	{
 		"caption": "工具",
-		// "mnemonic": "T",
+		"mnemonic": "T",
 		"id": "tools",
 		"children":
 		[
@@ -369,7 +364,7 @@
 	},
 	{
 		"caption": "首选项",
-		// "mnemonic": "n",
+		"mnemonic": "n",
 		"id": "preferences",
 		"children":
 		[
@@ -403,14 +398,12 @@
 				},
 			},
 			{ "caption": "-" },
-			{ "command": "open_dir", "args": {"dir": "$packages"}, "caption": "浏览插件目录…"
-				// ,"mnemonic": "B"
-			},
+			{ "command": "open_dir", "args": {"dir": "$packages"}, "caption": "浏览插件目录…" , "mnemonic": "B" },
 		]
 	},
 	{
 		"caption": "帮助",
-		// "mnemonic": "H",
+		"mnemonic": "H",
 		"id": "help",
 		"children":
 		[
@@ -426,9 +419,7 @@
 			{ "command": "update_check", "caption": "检查更新…" },
 			{ "command": "generate_debug_info", "caption": "调试信息" },
 			{ "command": "show_changelog", "caption": "更新日志…" },
-			{ "command": "show_about_window", "caption": "关于 Sublime Merge"
-				// , "mnemonic": "A"
-			},
+			{ "command": "show_about_window", "caption": "关于 Sublime Merge", "mnemonic": "A" },
 		]
 	}
 ]

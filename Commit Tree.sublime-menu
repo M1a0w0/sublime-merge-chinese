@@ -1,0 +1,7 @@
+[
+    {
+        "caption": "复制树",
+        "command": "copy_to_clipboard",
+        "args": {"text": "$tree"}
+    }
+]

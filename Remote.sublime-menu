@@ -5,11 +5,11 @@
 		{
 			"command": "fetch",
 			"args": { "remote": "$remote" },
-			"description": "从 $remote 获取仓库",
+			"description": "抓取远程仓库 $remote",
 		},
 	},
 	{
-		"caption": "删除 $remote",
+		"caption": "删除远程仓库 $remote",
 		"command": "delete_remote",
 		"args": {"remote": "$remote"}
 	},
@@ -19,7 +19,7 @@
 		{
 			"command": "rename_remote",
 			"args": { "remote": "$remote" },
-			"description": "重命名 $remote",
+			"description": "重命名远程仓库 $remote",
 		},
 	},
 	{
@@ -28,12 +28,12 @@
 		{
 			"command": "update_remote_url",
 			"args": { "remote": "$remote" },
-			"description": "更新仓库 URL",
+			"description": "更新远程仓库 URL",
 		},
 	},
 	{
 		"command": "copy_to_clipboard",
-		"caption": "复制仓库 URL",
+		"caption": "复制远程仓库 URL",
 		"args": { "text": "$remote_url" }
 	},
 ]
